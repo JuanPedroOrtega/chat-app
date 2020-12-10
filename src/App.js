@@ -1,12 +1,10 @@
-import React from 'react';
-import Contact from './components/contact.js'
+import React from "react";
+import Contact from "./components/contact.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-    <Contact/>
+      <Contact />
     </div>
   );
 }
-
-export default App;
